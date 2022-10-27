@@ -4,6 +4,10 @@ import Button from "../components/Button";
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>Buildit | Home</title>
+    </Head>
     <div className="flex flex-col min-h-screen">
       <div className="px-28 pb-16 pt-36 bg-[url('../public/Bgs.svg')] bg-no-repeat bg-cover">
         <div className="mx-auto container grid grid-cols-2 gap-10">
@@ -247,5 +251,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </>
   );
 }

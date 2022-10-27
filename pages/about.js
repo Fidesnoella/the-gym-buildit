@@ -1,7 +1,13 @@
+
+import Head from "next/head";
 import Button from "../components/Button";
 
 const About = () => {
   return (
+    <>
+    <Head>
+    <title>Buildit | About</title>
+    </Head>
     <div className="flex flex-col min-h-screen ">
       <div className="flex-1 ">
         <div className="bg-[#dde9fb]">
@@ -77,6 +83,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
